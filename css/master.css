@@ -47,7 +47,12 @@ header>nav ul>li button{
 }
 
 .menu-hide ul{
-    display: flex;
-    flex-direction: column;
+    display: block;
     padding-top: 20px;
+}
+
+main{
+    height: 700px;
+    width: 100%;
+    background-color: lime;
 }
