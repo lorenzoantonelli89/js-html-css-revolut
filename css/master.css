@@ -1,0 +1,53 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header  */
+
+header>nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+header>nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+header>nav ul img{
+    width: 20px;
+}
+
+header>nav ul>li{
+    padding-right: 40px;
+}
+
+header>nav ul>li button{
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.menu{
+    position: relative;
+}
+
+.menu-hide{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    display: none;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.menu-hide ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
